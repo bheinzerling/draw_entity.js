@@ -19,3 +19,25 @@ There are several options for drawing edges between mentions:
 # API:
 
 drawEntity(divIds, style, edgeSelectionFunc)
+
+where
+
+* `divIDs`: The IDs of the divs representing the entity mentions. That is, the divs with these IDs will get connected.
+
+* `style`: The line style used to draw connecting lines, [documented here](https://github.com/sporritt/jsPlumb/wiki/paint-styles)
+
+* `edgeSelectionFunc`: One of `euclideanMST`, `connectAntecedents`, `completeGraph`
+
+## Minimal working example
+
+TODO
+
+## Example
+
+TODO
+
+## Dependencies
+
+* [jsPlumb](https://github.com/sporritt/jsPlumb)
+
+* [jQuery](https://github.com/jquery/jquery)
