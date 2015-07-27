@@ -12,9 +12,9 @@ There are several options for drawing edges between mentions:
 
 * Complete graph: draws all pairwise edges between mentions.
 
-![Connect antecedents](/images/ex_antecedents)
+![Connect antecedents](/images/ex_antecedents.png)
 
-![Complete graph](/images/ex_compl_graph)
+![Complete graph](/images/ex_compl_graph.png)
 
 # API:
 
@@ -38,6 +38,12 @@ TODO
 
 ## Dependencies
 
-* [jsPlumb](https://github.com/sporritt/jsPlumb)
+* [jsPlumb](https://github.com/sporritt/jsPlumb) (add via `<script>`)
 
-* [jQuery](https://github.com/jquery/jquery)
+* [jQuery](https://github.com/jquery/jquery) (add via `<script>`)
+
+* [Delaunay](https://github.com/ironwallaby/delaunay) (included)
+
+* [Kruskal](https://github.com/abetusk/kruskal.js) (included)
+
+* [EuclideanMST](https://github.com/abetusk/kruskal.js) (included)

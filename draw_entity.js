@@ -1,5 +1,13 @@
 ;
 
+/* 
+ * euclideanmst.js by abetusk
+ *
+ * https://github.com/abetusk/euclideanmst.js
+ *
+ * GPLv3
+ */
+
 var EuclideanMST;
 var Delaunay;
 
@@ -103,6 +111,13 @@ var Delaunay;
     }
   }
 
+/*
+ * Implementation of Delaunay Triangulation in JavaScript, by ironwallaby
+ *
+ * https://github.com/ironwallaby/delaunay
+ *
+ * License: public domain
+ */
   Delaunay = {
     triangulate: function(vertices, key) {
       var n = vertices.length,
@@ -287,6 +302,13 @@ proto.link = function(x, y) {
   }
 }
 
+/* 
+ * Implementation of Kruskal's algorithm by abetusk.
+ *
+ * https://github.com/abetusk/kruskal.js
+ *
+ * License: GPLv3
+ */
 var Kruskal;
   "use strict";
 
