@@ -6,7 +6,7 @@ This is a JavaScript package for visualizing entities in text. "Entities" are te
 
 There are several options for drawing edges between mentions:
 
-* Euclidean minimum spanning tree: Connects all mentions while minimizizing overall line length (pictured above).
+* Euclidean minimum spanning tree: Connects all mentions while minimizing overall line length (pictured above).
 
 * Connect antecedents: connects all mentions in textual order.
 
